@@ -1,0 +1,210 @@
+.sb-hdg{
+    color: black;
+}
+
+.sub-rat-container{
+    justify-content: space-between;
+}
+
+.sub-ratg-img-box{
+    position: sticky;
+    width: 53%;
+    gap: 10px;
+}
+.right-img {
+    position: sticky;
+    right: 0;
+    bottom: 0;
+    transform: translateX(0);
+}
+#opy{
+  opacity: 0.2;
+}
+.left-img {
+width: 100%;
+}
+.stats-container{
+    gap: 30px;
+}
+.stat-box {
+    width: 132px;
+}
+
+/* POWERING DAILY LIFE container */
+.pwr-container {
+  width: 85%;
+  margin: 6rem auto;
+}
+.pwr-container > p {
+  letter-spacing: 2px;
+  color: #c90e0e;
+}
+.pwr-container > h5 {
+  margin: 1rem 0;
+  font-size: 2.5rem;
+}
+.pwr-content {
+  display: flex;
+  align-items: center;
+}
+.pwr-left-img {
+  width: 45%;
+  height: fit-content;
+  position: relative;
+}
+.pwr-upr-img-content{
+    width: 300px;
+    margin: 1rem 0 0 1rem;
+    padding: 1rem 10px  2rem 10px;
+    position: absolute;
+    top: 0;
+    border: 2px solid black;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.35);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid black;
+}
+.pwr-upr-img-content > p {
+    /* margin: 1rem 0; */
+    line-height: 30px;
+    font-size: 1.2rem;
+}
+.pwr-upr-img-content > b {
+    color: white;
+    font-size: 2rem;
+    display: inline-block;
+    transform: rotate(-7deg);
+    padding: 10px 10px;
+    background-color: black;
+}
+.our-under-content {
+  margin: 2rem 0 1rem 3rem;
+  padding-left: 2rem;
+  border-left: 3px solid #6a9c89;
+}
+.our-under-content > ul > li{
+    color: black;
+    margin: 1rem 0;
+    list-style: none;
+}
+
+.our-under-content > h3 {
+  font-weight: 500;
+  color: black;
+  font-size: 1.7rem;
+}
+
+.pwr-right-content > ul > li {
+  margin: 10px 0 0 3rem;
+  padding: 11px 2rem;
+  list-style: none;
+  font-weight: 600;
+  font-size: 1.5rem;
+  border-left: 3px solid #d2d2d2;
+}
+/* Our Mission section */
+.mission-section{
+    width: 85%;
+    margin: auto
+}
+.msn{
+    letter-spacing: 2px;
+    color: #c90e0e;
+}
+.msn-hdg{
+    margin: 1rem 0;
+    font-size: 3rem;
+}
+
+.mission-container {
+  display: flex;
+  align-items: center;
+  gap: 60px;
+}
+
+.mission-content {
+  flex: 1;
+}
+
+.mission-tag {
+  color: #d13c2f;
+  font-weight: 600;
+  letter-spacing: 2px;
+  font-size: 14px;
+}
+
+.mission-content h2 {
+  font-size: 44px;
+  margin: 12px 0 30px;
+  color: #000;
+}
+
+.mission-list {
+  display: flex;
+  gap: 50px;
+}
+
+.mission-list ul {
+  list-style: none;
+  padding: 0;
+}
+
+.mission-list li {
+  font-size: 16px;
+  color: black;
+  margin-bottom: 14px;
+  padding-left: 28px;
+  position: relative;
+  line-height: 1.6;
+}
+
+/* CHECK ICON */
+.mission-list li::before {
+  content: "✔";
+  position: absolute;
+  left: 0;
+  top: 2px;
+  color: #4fae9f;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.mission-image {
+  flex: 1;
+}
+
+.mission-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 6px;
+}
+
+
+.flex-reverse{
+    flex-direction: row-reverse;
+}
+.mission-list > ul > li > h2 {
+    font-size: 1rem;
+    font-weight: 500;
+    margin: 0 0 10px 0;
+}
+.mission-list > ul > li > p {
+    color: gray;
+}
+
+
+
+/* ===== CLEAN SCROLL ANIMATION ===== */
+[data-animate] {
+  opacity: 0;
+  transform: translateY(25px); /* halka sa bottom */
+  transition: opacity 0.6s ease, transform 0.6s ease;
+  will-change: transform, opacity;
+}
+
+[data-animate].show {
+  opacity:1;
+  transform: translateY(0);
+}

@@ -1,0 +1,13 @@
+@media (max-width: 971px) { 
+.aside-container{
+    margin: 1rem 0 2rem 0;
+}
+}
+@media (max-width: 616px) { 
+    .wtr-atl-img-box{
+        flex-direction: column;
+    }
+    .wtr-atl-img{
+        width: 100%;
+    }
+}

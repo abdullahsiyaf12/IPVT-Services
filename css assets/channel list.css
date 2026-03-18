@@ -1,0 +1,152 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: white;
+}
+
+/* channals listed container */
+.chnl-lst-container{
+    width: 85%;
+    margin: auto;
+}
+.chnl-lst-container > p{
+    text-align: center;
+    letter-spacing: 2px;
+    color: #c90e0e;
+}
+.chnl-lst-container > h4 {
+    text-align: center;
+    font-size: 2.3rem;
+    margin: 2rem 0;
+}
+.chnl-lst-container > ul {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content:center;
+}
+.chnl-lst-container > ul > li {
+    box-shadow: 1px 0px 30px rgb(219 219 219);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    height: 70px;
+}
+.chnl-img-bx{
+    margin-right: 7px;
+    width: 40px;
+    height: 40px;
+    display: block;
+    list-style: none;
+    border-radius: 5px;
+}
+/* offer container */
+.ofr-container{
+    width: 85%;
+    margin: auto;
+    padding: 4rem 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.enjoy-img-box{
+    width: 550px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.enjoy-content-box{
+    width: 500px;
+
+}
+.content-enj{
+    letter-spacing: 3px;
+    color: #c90e0e;
+}
+.enjoy-content-box > h5 {
+    font-size: 2.4rem;
+    line-height: 40px;
+    margin: 1rem 0;
+}
+.fav-p-tv{
+    font-size: 1.2rem;
+    color: gray ;
+    line-height: 32px;
+}
+.sub-p{
+    margin: 1.5rem 0 ;
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+.enjoy-big-box{
+    display: flex;
+    align-items: center;
+}
+.str-box{
+padding:50px 36px;
+border-radius: 10px;
+background-color: #c90e0e;
+}
+.str-box > p {
+    margin: 5px;
+    letter-spacing: 2px;
+    text-align: center;
+    color: white;
+}
+.enjy-prc{
+    font-size: 1.2rem;
+    color: white;
+    margin: 1rem 0 0 0;
+    display: block;
+}
+.enjy-prc > span{
+    font-size: 0.8rem;
+}
+.preperd-box{
+    padding: 1.6rem;
+    margin-left: 10px;
+    border-radius: 10px;
+    border: 2px solid black;
+}
+.preperd-box > a {
+    color: #6a9c89;
+    text-decoration: none;
+}
+.only-net-p{
+    margin: 1rem 0 ;
+    font-weight: 600;
+font-size: 1.3rem;
+}
+
+.view-btn{
+    font-size: 1rem;
+    color: white;
+    border: none;
+    padding: 17px 20px;
+    border-radius: 5px;
+    margin: 1rem 0;
+    cursor: pointer;
+    background-color: #6a9c89;
+
+    transition: all 0.3s ease; /* smooth animation */
+}
+
+.view-btn:hover{
+    transform: scale(1.08); /* thora sa bara */
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.25);
+}
+
+.scroll-anim {
+    opacity: 0;
+    transform: translateY(60px) scale(0.97); /* slide from bottom + slight zoom */
+    transition: opacity 0.8s ease-out, transform 0.9s cubic-bezier(0.25, 0.8, 0.25, 1);
+    will-change: transform, opacity;
+}
+
+.scroll-anim.show {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+}

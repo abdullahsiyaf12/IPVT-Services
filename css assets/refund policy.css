@@ -1,0 +1,152 @@
+main{
+    background-color:#201516 ;
+}
+.refund-container {
+  width: 85%;
+  margin: 50px auto;
+  padding: 30px;
+  /* background-color:black; */
+  border-radius: 10px;
+  color: #fff;
+}
+
+.refund-container h2 {
+  font-size: 28px;
+  margin:3rem 0 25px 0;
+}
+#opy{
+  opacity: 0.2;
+}
+.refund-item {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 18px;
+}
+
+.refund-icon {
+  color: #ff0000; /* red check */
+  font-size: 26px;
+}
+
+.refund-item > p {
+  margin: 0;
+  font-size: 1.2rem;
+  line-height: 1.5;
+}
+
+.nonrefund-container {
+  width: 85%;
+  margin: 50px auto;
+  padding: 30px;
+  background: linear-gradient(to right, #000, #111);
+  border-radius: 10px;
+  color: #fff;
+}
+
+.nonrefund-container h2 {
+  font-size: 28px;
+  margin-bottom: 25px;
+}
+
+/* LIST STYLING */
+.nonrefund-list {
+  list-style: none;   /* default bullets remove */
+  padding: 0;
+  margin: 0;
+}
+
+.nonrefund-list li {
+  display: flex;
+  align-items: flex-start;
+  gap: 14px;
+  margin-bottom: 18px;
+  font-size: 1.2rem;
+  line-height: 1.6;
+  color: #e5e5e5;
+}
+
+.nonrefund-list .material-icons {
+  font-size: 22px;
+  color: #9a9a9a;
+  margin-top: 2px;
+}
+.no-li-style > li{
+list-style: none;
+margin-left: 1rem;
+font-size: 1.2rem;
+margin-bottom: 18px;
+}
+.agrement{
+    background-color:#1f1314;
+    font-size: 1.5rem;
+    line-height: 32px;
+    border-radius: 10px;
+    padding: 40px;
+    border: 1px solid red;
+}
+
+.contact-container {
+  width: 85%;
+  margin: 50px auto;
+  padding: 30px;
+  background: linear-gradient(to right, #000, #111);
+  border-radius: 10px;
+  color: #fff;
+}
+
+.contact-container h2 {
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+.contact-subtext {
+  color: #dcdcdc;
+  margin-bottom: 22px;
+  font-size: 1.3rem;
+}
+
+/* LIST */
+.contact-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.contact-list li {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  margin-bottom: 18px;
+  font-size: 16px;
+  color: #e5e5e5;
+}
+
+/* ICONS */
+.contact-list .material-icons {
+  font-size: 30px;
+}
+
+.email { color: white; }
+.phone { color: white; }
+.chat { color: white; }
+.whatsapp { color: white; }
+
+/* RED HIGHLIGHT TEXT */
+.highlight {
+    font-size: 1.3rem;
+  color: #ff0000;
+}
+
+
+/* ===== SCROLL ANIMATION BASE ===== */
+[data-animate] {
+    opacity: 0;
+    transform: translateY(60px);
+    transition: opacity .8s ease, transform .8s ease;
+}
+
+[data-animate].show {
+    opacity: 1;
+    transform: translateY(0);
+}

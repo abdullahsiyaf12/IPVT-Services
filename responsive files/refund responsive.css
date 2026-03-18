@@ -1,0 +1,20 @@
+@media (max-width: 522px) {
+    .refund-container{
+        padding: 0;
+    }
+}
+@media (max-width: 396px) {
+.hero-p {
+        font-size: 2rem;
+}
+.contact-list li{
+    align-items: flex-start;
+    flex-direction: column;
+}
+    .mail-sub-container {
+        height: 850px;
+    }
+    .n-dsign {
+        width: 100%;
+    }
+}

@@ -1,0 +1,82 @@
+@media (max-width: 855px) {
+    .prc-plan-container{
+        justify-content: center;
+    }
+    .price-box{
+    width: 75%;
+}
+.flr-img{
+    display: none;
+}
+.mail-sub-container{
+    height: 700px;
+}
+.main-content-box{
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.mail-content {
+    width: 90%;
+}
+.hero-p {
+    font-size: 2.5rem;
+    line-height: 50px;
+}
+.hero-image-bnr {
+    height: 230px;
+    bottom: 109px;
+}
+.bnr-content > h3, .bnr-prc {
+        font-size: 2.3rem;
+        line-height: 39px;
+}
+}
+@media (max-width: 654px) { 
+    .bnr-content{
+        width: 100%;
+    }
+    .bnr-call-btn{
+        margin: 0;
+   }
+}
+@media (max-width: 558px) { 
+    .hero-image-bnr {
+        height: 161px;
+        bottom: 62px;
+    }
+    .sub-plng-container > h3 {
+        font-size: 2rem;
+    }
+    .price-box{
+        width: 100%;
+    }
+}
+@media (max-width: 421px) {
+    .net-spd-box{
+        width: 100%;
+        flex-direction: column;
+    }
+    .brdr-ri{
+    border-right: none;
+    border-bottom: 1px solid gray;
+    }
+
+}
+@media (max-width: 383px) { 
+.mail-sub-container{
+    height: 800px;
+}
+.input-box > input{
+    width: 100%;
+    border-radius: 10px;
+}
+.input-box > button {
+    margin-top:1rem ;
+}
+/* .banner-img-container {
+height: 600px;
+} */
+.n-dsign{
+    width: 100%;
+}
+}

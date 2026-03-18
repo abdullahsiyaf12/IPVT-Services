@@ -1,0 +1,35 @@
+@media (max-width: 1036px) {
+    .ofr-container{
+        flex-direction: column;
+    }
+    .trial-card{
+        margin:1rem 0;
+        width: 100%;
+    }
+}
+@media (max-width: 425px) {
+    .trial-hdg {
+        font-size: 2rem;
+    }
+    .trial-para {
+        font-size: 1.1rem;
+    }
+    .material-icons {
+        display: block;
+        font-size: 18px;
+    }
+}
+@media (max-width: 375px) {
+.trial-hdg {
+        font-size: 1.6rem;
+    }
+        .trial-para {
+        font-size: 1.1rem;
+    }
+    .card-inner {
+            padding: 11px;
+    }
+    .ofr-container {
+        width: 93%;
+    }
+}

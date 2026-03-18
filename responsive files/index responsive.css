@@ -1,0 +1,504 @@
+@media (max-width: 1276px) {
+  .nav-container,
+  .sub-rat-container,
+  .fetur-container,
+  .upr-content,
+  .pricing-container,
+  .upr-content-box,
+  .main-testimonial-container,
+  .rating-container,
+  .faqs-container,
+  .fotr-upr-content {
+    width: 90%;
+  }
+  .hero-contect {
+    margin-top: 10rem;
+  }
+}
+@media (max-width: 1208px) {
+  .nav-container,
+  .sub-rat-container,
+  .fetur-container,
+  .upr-content,
+  .pricing-container,
+  .upr-content-box,
+  .main-testimonial-container,
+  .rating-container,
+  .faqs-container,
+  .fotr-upr-content {
+    width: 85%;
+  }
+  .ftr-box,
+  .pricing-box-bg-img {
+    width: 450px;
+  }
+  .sub-ratg-img-box {
+    margin-top: 2rem;
+    position: relative;
+    width: 100%;
+    /* height: 700px; */
+  }
+  .sub-rat-container {
+    padding: 0;
+    flex-wrap: wrap;
+  }
+  .right-img {
+    transform: translateX(0%);
+  }
+  .left-img {
+    width: 100%;
+  }
+  .active-sub {
+    top: 0;
+    left: 27%;
+  }
+  .fv-str-re {
+    top: -161px;
+    right: 236px;
+  }
+  .benefits-container {
+    flex-wrap: wrap;
+  }
+  .benefits-img,
+  .benefits-content-container {
+    width: 80%;
+    margin: auto;
+  }
+  .benefits-services {
+    width: 100%;
+    justify-content: space-between;
+  }
+  .benifit-content {
+    width: 100%;
+  }
+  .benif-box {
+    width: 45%;
+  }
+  .benf-icon {
+    width: 40px;
+  }
+  .sb-lf-con {
+    width: 100%;
+  }
+  .our-contnt-img {
+    width: 525px;
+    height: 345px;
+  }
+}
+@media (max-width: 1100px) {
+  .hero-logo-box {
+    margin: 1rem 1rem;
+  }
+  .nav-container > ul > li > a {
+    margin: 0 13px;
+  }
+  .ftr-box,
+  .pricing-box-bg-img {
+    width: 400px;
+  }
+  .rating-container {
+    margin: 4rem auto;
+  }
+  .tri-img {
+    display: none;
+  }
+  .our-contnt-img {
+    width: 442px;
+    height: 291px;
+  }
+  .wtch-hdg {
+    width: 85%;
+  }
+}
+
+@media (max-width: 1028px){
+    .nav-container {
+    margin: 0 auto;
+    padding: 15px;
+  }
+  .nav-container > ul {
+    display: none;
+  }
+  .nav-container{
+    width: 90%;
+
+    border-radius:  0 0 10px 10px;
+  }
+  .nav-links{
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    background: rgba(0,0,0,0.95);
+  }
+  .nav-links > li{
+    text-align: center;
+  }
+  .nav-links > li > a{
+    display: block;
+    margin: 0;
+    padding: 15px;
+  }
+  .nav-links.active{
+    display: flex;
+    align-items: flex-start;
+  }
+  .burgr-icon{
+    display: block;
+  }
+  .about-li:hover .drp-down{
+    display: none;
+  }
+  .drp-down{
+    position: static;
+  }
+  .about-li > a {
+    cursor: pointer;
+  }
+  .about-li .drp-down{
+    display: none; /* initially hidden */
+    position: static; /* mobile ke liye */
+  }
+  .about-li.active .drp-down{
+    display: block; /* show when active */
+  }
+    .drp-down > li > a{
+      text-align: left;
+    }
+      .mobile-btns{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 15px;
+  }
+
+  .mobile-btns button{
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 4px;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+
+  .login-btn{
+    background: transparent;
+    border: 1px solid #fff;
+    color: #fff;
+  }
+
+  .register-btn{
+    background: #c90e0e;
+    color: #fff;
+  }
+
+}
+
+@media (max-width: 1010px) {
+  .upr-content,
+  .faqs-container {
+    flex-wrap: wrap;
+  }
+  .bg-ltc-box,
+  .bg-shine-img {
+    display: none;
+  }
+  .our-contnt-img {
+    width: 100%;
+    margin: 1rem 0;
+  }
+  .ques-ans-container,
+  .ans-ques {
+    width: 100%;
+  }
+  .faqs-img {
+    width: 80%;
+    margin: auto;
+  }
+  .right-img {
+    width: 356px;
+  }
+  .tstml-arrow {
+    position: absolute;
+    bottom: 0;
+  }
+}
+@media (max-width: 990px) {
+  .logo-container {
+    justify-content: center;
+    width: 80%;
+  }
+  .review-box {
+    flex: 0 0 100%;
+  }
+  .benif-box {
+    width: 100%;
+    margin: 1.3rem 0;
+  }
+  .benefits-services {
+    margin-top: 1.3rem;
+  }
+  .rating-box {
+    width: 100px;
+    height: 100px;
+  }
+
+  .right-img {
+    width: 45%;
+  }
+  .active-sub {
+    top: 34px;
+  }
+  .ftr-box,
+  .pricing-box-bg-img {
+    width: 336px;
+  }
+  .sky {
+    bottom: 0;
+  }
+  .rat-left-img-box {
+    width: 50%;
+  }
+}
+
+@media (max-width: 860px) {
+  .ftr-box,
+  .pricing-box-bg-img {
+    width: 336px;
+  }
+  .client-reviews-container {
+    margin-top: 1rem;
+  }
+  .hero-2st-ln {
+    width: 80%;
+    margin: auto;
+  }
+  .right-img {
+    width: 50%;
+    height: 100%;
+    position: static;
+    margin-left: 1rem;
+  }
+  /* .sub-ratg-img-box{
+      align-items: center;
+      flex-direction: column;
+    } */
+  .active-sub {
+    top: 67px;
+  }
+}
+@media (max-width: 817px) {
+  .ftr-box,
+  .pricing-box-bg-img {
+    width: 100%;
+    height: auto;
+  }
+  .pricing-main-container {
+    justify-content: center;
+  }
+  .ftr-icon-box {
+    width: 60px;
+    height: 60px;
+  }
+  .ftr-box > h3 {
+    padding: 5px 0;
+    font-size: 1.6rem;
+  }
+  .ftr-box p {
+    padding: 10px 0;
+  }
+  .ftr-box {
+    padding: 20px 25px;
+  }
+  .our-under-content {
+    width: 100%;
+  }
+  .sb-hdg,
+  .fetur-container > h3,
+  .our-under-content > h3,
+  .wtch-hdg,
+  .pricing-container > h3,
+  .bnr-content > h3,
+  .benefits-content-container > h3,
+  .tstmol-hdg,
+  .ques-ans-container > h3 {
+    font-size: 2.2rem;
+  }
+}
+
+@media (max-width: 739px) {
+  .nav-container,
+  .sub-rat-container,
+  .fetur-container,
+  .upr-content,
+  .pricing-container,
+  .upr-content-box,
+  .main-testimonial-container,
+  .rating-container,
+  .faqs-container,
+  .fotr-upr-content {
+    width: 93%;
+  }
+  .tstm-left,
+  .tstml-arrow {
+    display: none;
+  }
+}
+@media (max-width: 685px) {
+  .logo-container {
+    flex-wrap: nowrap;
+    overflow: auto;
+    width: 95%;
+  }
+  .hero-logo-box {
+    margin: 1rem 0.6rem;
+  }
+  
+  .fv-str-re {
+    top: 0;
+    right: 0;
+    position: relative;
+  }
+  .right-img {
+    width: 50%;
+  }
+}
+
+@media (max-width: 684px) {
+  .hero-2st-ln {
+    width: 68%;
+  }
+  .stat-box {
+    width: 121px;
+    padding: 22px 10px;
+  }
+  .rating-container{
+    margin-top: 12rem;
+  }
+}
+@media (max-width: 630px) {
+  .hero-contect{
+    width: auto;
+    padding: 0 1rem;
+  }
+  .hero-2st-ln{
+    font-size: 2.2rem;
+    width: 100%;
+    line-height: 60px;
+  }
+  .bnr-content{
+    width: auto;
+  }
+  .bnr-contect-btn{
+    gap: 20px ;
+    flex-direction: column;
+  }
+  .bnr-call-btn{
+    margin: 0;
+  }
+  .bnr-content > h3{
+    font-size: 1.8rem;
+    line-height: 34px;
+  }
+  .bnr-prc{
+    font-size: 2rem;
+  }
+  .bnr-logo {
+    width: 50px;
+    height: 50px;
+  }
+  .bnr-logo{
+    padding: 10px;
+  }
+  .acount-aces{
+    font-size: 1rem;
+  }
+  
+}
+@media (max-width: 584px) { 
+  .sub-ratg-img-box{
+    gap: 20px;
+    flex-direction: column;
+  }
+  .rat-left-img-box,.right-img {
+    width: 85%;
+    margin: auto;
+  }
+  .stats-container {
+    gap: 35px;
+    flex-direction: column;
+    align-items: center;
+  }
+  .sky{
+    left: 0;
+  }
+  .stat-box {
+    width: 225px;
+    padding: 35px 10px;
+  }
+  .rating-container{
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+ 
+
+  
+}
+
+
+@media (max-width: 524px) { 
+  .rating-container {
+    margin-top: 20rem;
+  }
+   .sb-hdg, .fetur-container > h3, .our-under-content > h3, .wtch-hdg, .pricing-container > h3, .bnr-content > h3, .benefits-content-container > h3, .tstmol-hdg, .ques-ans-container > h3,.rtg-num {
+    font-size: 2rem;
+  }
+  .rtg-num{
+    text-align: center;
+  }
+  .our-content-container {
+        padding-top: 0rem;
+  }
+  .nav-btn > button{
+    display: none;
+  }
+
+
+}
+
+@media (min-width:524px){
+  .mobile-btns,.login-btn,.mobile-btns button{  
+    display: none;
+  }
+
+}
+
+
+@media (max-width: 420px) { 
+  .sub-ratg-img-box{
+    margin-top: 5rem;
+  }
+  .rating-container {
+                margin-top: 30rem;
+              }
+    .sub-li-box > ul {
+    width: max-content;
+    padding: 0 0 0 0;
+    border: none;
+    width: 260px;
+  }
+   .sub-li-box > ul > li {
+    line-height: 30px;
+   }
+}
+ @media (max-width: 384px) { 
+.sub-ratg-img-box {
+        margin-top: 12rem;
+    }
+    .hero-btn{
+      display: block;
+      margin: 1.2rem auto 0 auto;
+    }
+ }

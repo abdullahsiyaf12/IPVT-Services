@@ -1,0 +1,71 @@
+.policy-details{
+    width: 85%;
+    margin: auto;
+}
+.policy-details > h2 {
+    font-size: 1.3rem;
+}
+.policy-details > p {
+    color: gray;
+    line-height: 30px;
+    font-size: 1.1rem;
+    margin: 1rem 0;
+}
+.policy-details > ul > li {
+    list-style-type: numarical;
+    font-size: 1.1rem;
+    margin: 2rem 0 2rem 1rem;
+    color: rgb(55, 55, 55);
+}
+.policy-details > ul > li::marker {
+    color: #c90e0e;
+}
+
+#opy{
+    opacity: 0.2;
+}
+/* =========================
+   GLOBAL SCROLL ANIMATION
+========================= */
+
+/* HERO */
+.sub-hero-container,
+.hero-main-content,
+.hero-left-img,
+.hero-ri-img,
+.sub-upr-content {
+    opacity: 0;
+    transform: translateY(70px);
+    transition: all 1s ease;
+}
+
+/* POLICY CONTENT (text blocks) */
+.policy-details > * {
+    opacity: 0;
+    transform: translateY(50px);
+    transition: all 0.8s ease;
+}
+
+/* MAIL SECTION */
+.mail-sub-container,
+.main-upr-content-box,
+.left-mail-imgs-box,
+.mail-content {
+    opacity: 0;
+    transform: translateY(60px);
+    transition: all 0.9s ease;
+}
+
+/* FOOTER */
+.fotr-container,
+.fotr-upr-content > * {
+    opacity: 0;
+    transform: translateY(60px);
+    transition: all 0.9s ease;
+}
+
+/* SHOW STATE */
+.show {
+    opacity: 1;
+    transform: translateY(0);
+}

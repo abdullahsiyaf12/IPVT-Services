@@ -1,0 +1,150 @@
+/* events offer container */
+.ofr-container{
+    width: 85%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+/* Card Wrapper */
+.trial-card {
+  margin: 1rem;
+  position: relative;
+  width: 45%;
+}
+
+/* Badge above border */
+.trial-badge {
+  position: absolute;
+  top: -16px;
+  right: 20px;
+  background: #c41113;
+  color: white;
+  padding: 8px 18px;
+  font-weight: bold;
+  z-index: 10;
+}
+
+/* Inner Card */
+.card-inner {
+  position: relative;
+  padding: 30px;
+    border: 2px solid #c41113;
+    overflow: hidden;
+    color: white;
+}
+
+/* Background Image */
+.card-bg {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 0;
+}
+
+/* Dark Overlay */
+.card-inner::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(0,0,0,0.75);
+    z-index: 1;
+}
+
+/* Content on top */
+.trial-content {
+    position: relative;
+    z-index: 2;
+}
+
+/* Icons */
+.material-icons {
+  vertical-align: middle;
+}
+.material-icons.gift-icon {
+    font-size: 40px;
+}
+
+.trial-hdg{
+  font-weight: 700;
+  line-height: 40px;
+  font-size: 2.2rem;
+  margin: 1rem 0;
+}
+.trial-para{
+  font-size: 1.3rem;
+  line-height: 32px;
+  color: lightgray;
+}
+/* Main Icon */
+.gift-icon {
+    font-size: 42px;
+    color: #c41113;
+}
+.clr{
+  color: #c41113;
+}
+.tme-clr{
+  color: lightgray;
+}
+/* Info Section */
+.info {
+    margin-top: 15px;
+}
+
+.info div {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    margin-top: 8px;
+}
+
+.danger {
+    color: #c41113;
+}
+
+/* Button */
+.claim-btn {
+    margin-top: 22px;
+    width: 100%;
+    padding: 14px;
+    background: #c41113;
+    color: white;
+    border: none;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
+    cursor: pointer;
+}
+
+.claim-btn:hover {
+    background: darkred;
+}
+/* animation  */
+.sub-hero-container,
+.hero-main-content,
+.sub-upr-content,
+.hero-left-img,
+.hero-ri-img {
+    opacity: 0;
+    transform: translateY(50px);
+    transition: all 1s ease;
+}
+
+/* EVENTS CARDS */
+.trial-card {
+    opacity: 0;
+    transform: translateY(60px);
+    transition: all 0.9s ease;
+}
+
+/* SHOW STATE */
+.show {
+    opacity: 1;
+    transform: translateY(0);
+}

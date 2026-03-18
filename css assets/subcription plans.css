@@ -1,0 +1,138 @@
+/* pricing container */
+.pricing-container {
+  padding: 3rem 0;
+  width: 85%;
+  margin: auto;
+}
+.prc-pln {
+  color: #c90e0e;
+  text-align: center;
+}
+.afr-pln {
+  text-align: center;
+  font-size: 2.5rem;
+  color: white;
+}
+.pricing-container > p,
+.pricing-container > h3 {
+  margin: 1rem 0;
+}
+.pricing-main-container {
+  display: flex;
+  width: 100%;
+  margin: 3rem 0;
+  flex-wrap: wrap; 
+  gap: 1rem;
+  justify-content: space-between;
+}
+.pricing-box-bg-img {
+ width: 350px;
+  padding: 2.5rem 0;
+  object-fit: fill;
+  position: relative;
+  border-radius: 5px;
+  overflow: hidden;
+  background-color: violet;
+}
+.prc-upr-content {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.9);
+}
+
+.prc-upr-content > h3 {
+  font-size: 1rem;
+  color: white;
+  text-align: center;
+  font-weight: 400;
+  padding: 11px;
+  background-color: #c90e0e;
+}
+.pr-upr-img {
+  width: 200px;
+  margin: auto;
+  margin-top: 1.4rem;
+}
+.mnt {
+  font-weight: 600;
+  color: white;
+}
+.prc {
+  color: #c90e0e;
+  font-weight: 800;
+  font-size: 2.8rem;
+}
+.ato-ren {
+  color: gray;
+}
+.mnt,
+.prc,
+.ato-ren {
+  margin: 1rem 0;
+  text-align: center;
+}
+.prc-upr-content > ul {
+  /* width: max-content; */
+  width: 85%;
+  border-radius: 10px;
+  overflow: hidden;
+  margin: auto;
+}
+.prc-upr-content > ul > li {
+  color: gray;
+  list-style: none;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  padding: 14px 20px;
+  border-bottom: 0.2px solid black;
+  justify-content: space-between;
+  background-color: #3d3947;
+}
+.pri-mrk-pdg {  
+  padding: 0px 2.5px;
+}
+.mrk-clr::before {
+  color: gray;
+}
+.mrk-clr {
+  border-color: gray;
+}
+.pric-main-box {
+  width: max-content;
+}
+
+.pric-main-box > button {
+  padding: 14px 20px;
+  border: none;
+  font-size: 1rem;
+  border-radius: 5px;
+  display: block;
+  margin: auto;
+  position: relative;
+  bottom: 20px;
+  color: #0a0102;
+  background-color: #f2e394;
+  cursor: pointer;
+
+  transition: all 0.3s ease; /* smooth animation */
+}
+
+.pric-main-box > button:hover {
+  transform: scale(1.08); /* thora sa bara */
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.25);
+}
+.mny-bk {
+  font-size: 1.1rem;
+  text-align: center;
+  color: lightgray;
+}
+.mny-bk > a {
+  text-decoration: none;
+  color: #6a9c89;
+}

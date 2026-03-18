@@ -1,0 +1,42 @@
+@media (max-width: 1208px) {
+    .sub-ratg-img-box{
+        width: 100%;
+}
+.stat-box {
+    width: 150px;
+}
+.sky{
+    bottom: 0;
+}
+.sub-ratg-img-box{
+    justify-content: space-between;
+}
+}
+@media (max-width: 1024px) {
+    .flex-reverse{
+        flex-direction: column;
+    }
+    .mission-container{
+        margin-bottom: 2rem;
+        flex-direction: column-reverse;
+    }
+    .mission-content {
+        width: 100%;
+    }
+    .pwr-content{
+        flex-direction: column;
+    }
+    .pwr-left-img,.our-under-content {
+        width: 100%;
+    }
+    .our-under-content {
+    margin: 2rem 0 1rem 0rem;
+    }
+    .pwr-right-content > ul > li{
+            margin: 10px 0 0 0rem;
+    }
+}
+
+@media (max-width: 538px) {
+    
+}

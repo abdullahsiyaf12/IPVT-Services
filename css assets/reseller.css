@@ -1,0 +1,482 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+  background-color: white;
+}
+
+/* subcription hero container */
+.sub-hero-container{
+    width: 100%;
+}
+.hero-main-content{
+    background-color: #0a0102;
+    /* padding:0 0 6.4rem 0; */
+}
+.hero-img-box{
+    display: flex;
+    justify-content: space-between;
+    height: 100vh;
+    width: 100%;
+    position: relative;
+}
+.hero-left-img{
+    width: 100%;
+    height: 100%;
+    opacity: 0.2;
+}
+
+.img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+/* subcription upper content */
+.sub-upr-content{
+    width: 85%;
+    margin: auto;
+    height: 100%;
+    align-content: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+.sub-home-link{
+    color: white;
+    font-size: 1rem;
+    margin: 1rem 0;
+    word-spacing: 5px;
+    letter-spacing: 3px;
+}
+.hm-lnk-clr{
+    text-decoration: none;
+    color: #c90e0e;
+}
+.hero-p{
+    color: white;
+    font-size: 3.6rem;
+    margin: 1rem 0;
+    line-height: 70px;
+}
+.hero-image-bnr{
+    z-index: 100;
+    width: 85%;
+    margin: auto;
+    height: 350px;
+    position: relative;
+    left: 0;
+    right: 0;
+    bottom: 160px;
+    margin: 4rem auto;
+}
+/* subcription planes changing */
+.pricing-container{
+    padding: 0 0 2rem 0;
+}
+.afr-pln{
+    color: black;
+}
+.prc-upr-content > h3{
+    background-color: #c90e0e;
+}
+/* subcription pricing container and about internet speed  */
+.sub-plng-container{
+    width: 85%;
+    margin: auto;
+}
+.pkg-content{
+    width: 90%;
+    margin: auto;
+}
+.sub-plng-container > p{
+    text-align: center;
+    letter-spacing: 2px;
+    color: #c90e0e;
+}
+.sub-plng-container > h3 {
+    margin: 2rem 0;
+    text-align: center;
+    font-size: 2.5rem;
+}
+.prc-plan-container{
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+gap: 20px;
+}
+.price-box{
+    overflow: hidden;
+    border-radius: 10px;
+    width: 350px;
+    padding:0 0 2rem 0;
+    background-color: #ededed;
+}
+.price-box > h5{
+    padding: 13px 0;
+    font-weight: 600;
+    text-align: center;
+    color: white;
+    background-color: #c90e0e;
+}
+.dvc-prc-img{
+    width: 230px;
+    margin:2rem auto;
+}
+.net-b-spd{
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-align: center;
+}
+.mnth{
+    color: gray;
+    text-align: center;
+}
+.net-b-spd,.mnth{
+    margin: 1.2rem 0;
+}
+.net-spd-box{
+    display: flex;
+    width: max-content;
+    margin: auto;
+    padding: 7px 10px;
+    border-radius: 5px;
+    background-color: white;
+}
+.dwnld-dwn-spd{
+    padding: 0 6px;
+}
+.dwnld-dwn-spd > p {
+    margin: 10px 0;
+}
+.clr-fnt{
+    color: gray;
+}
+.bld{
+    font-size: 1.2rem;
+}
+.brdr-ri{
+    height: min-content;
+    border-right: 1px solid lightgray;
+}
+.usage{
+    padding: 1.2rem 0;
+    font-size: 1.2rem;
+    text-align: center;
+    border-bottom: 1px solid white;
+}
+.prc{
+    margin: 21px 0;
+    font-weight: 700;
+    font-size: 1.8rem;
+}
+.prc > sub {
+    font-weight: 400;
+    font-size: 0.9rem;
+}
+
+.shp-btn{
+    display: block;
+    border-radius: 5px;
+    margin: auto;
+    padding: 17px 19px;
+    color: white;
+    border: none;
+    cursor: pointer;
+    background-color: black;
+    font-size: 1rem;
+
+    transition: all 0.3s ease; /* smooth animation */
+}
+
+.shp-btn:hover{
+    transform: scale(1.08); /* thora sa bara */
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+}
+/* subcription banner container */
+/* section of banner image container */
+/* .banner-img-container {
+  width: 100%;
+  height: 500px;
+  margin: 5rem 0;
+  position: relative;
+} */
+.banr-upr-content {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(
+    to right,
+    transparent -100%,
+    rgba(0, 0, 0, 0.8) 55%,
+    transparent 100%
+  );
+}
+.banr-ltce-box {
+  height: 100%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+}
+.upr-content-box {
+  width: 85%;
+  height: 100%;
+  margin: auto;
+  align-content: center;
+}
+.bnr-price-box {
+  display: flex;
+  /* width: 500px; */
+  align-items: center;
+}
+.pric-mont {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.bnr-logo {
+  padding: 15px;
+  border-radius: 50%;
+  width: 70px;
+  height: 70px;
+  margin-right: 10px;
+  background-color: white;
+}
+.bnr-prc {
+  font-weight: 600;
+  color: #c90e0e;
+  font-weight: bold;
+  font-size: 3rem;
+}
+.bnr-prc > span {
+  font-size: 1rem;
+  color: lightgray;
+}
+.bnr-refd {
+  color: white;
+}
+.bnr-prc,
+.bnr-refd {
+  margin: 5px 0;
+}
+.bnr-contect-btn {
+  display: flex;
+}
+.tst-p {
+  margin: 1rem 0;
+  letter-spacing: 2px;
+  color: #c90e0e;
+}
+.bnr-content {
+  width: 600px;
+}
+.bnr-content > h3 {
+  font-size: 3rem;
+  color: white;
+}
+.acount-aces {
+  margin: 1.2rem 0;
+  font-size: 1.2rem;
+  color: lightgray;
+}
+.bnr-contect-btn {
+  margin: 2rem 0;
+}
+.tst-servs-btn {
+  border: none;
+  color: white;
+  font-size: 1.2rem;
+  padding: 15px 18px;
+  border-radius: 10px;
+  cursor: pointer;
+  background-color: #6a9c89;
+}
+.bnr-call-btn {
+  border: none;
+  color: #f2e394;
+  font-size: 1.2rem;
+  padding: 15px 18px;
+  margin-left: 1rem;
+  background: none;
+  cursor: pointer;
+  border: 2px solid #f2e394;
+  border-radius: 10px;
+}
+/* benefits container  */
+.benefits-container {
+  width: 100%;
+  display: flex;
+  padding: 5rem 0;
+}
+.benefits-img {
+  width: 600px;
+}
+.benefits-content-container {
+  margin-left: 2rem;
+}
+.benefits-content-container > p{
+  color: #c90e0e;
+  margin-top: 1rem;
+  letter-spacing: 2px;
+}
+.benefits-content-container > h3{
+  margin: 1rem 0;
+  color: white;
+  font-size: 3rem;
+}
+.benefits-services {
+margin-top: 3rem;
+display: flex;
+flex-wrap: wrap;
+width: 600px;
+/* background-color: green; */
+}
+.benif-box{
+  display: flex;
+  margin:1rem 10px ;
+  /* background-color: yellow; */
+}
+.benf-icon{
+  width: 30px;
+  height: 30px;
+}
+.benifit-content{
+  width: 200px;
+  margin-left: 10px;
+}
+.benifit-content > h3 {
+  color: white;
+  margin: 10px 0;
+  font-size: 1.3rem;
+}
+.benifit-content > p {
+  line-height: 30px;
+  font-size: 1rem;
+  margin-top: 1rem;
+  color: lightgray;
+}
+
+/* email submition upper footer content */
+.mail-sub-container{
+    width: 100%;
+    height: 500px;
+    margin: auto;
+    position: relative;
+}
+.bg-clr-mail{
+    width: 100%;
+    height: 52%;
+}
+.bg-blk{
+    background-color: black;
+}
+.main-upr-content-box{
+    width: 85%;
+    height: 100%;
+    border-radius: 10px;
+    margin:auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #f2e394;
+}
+.main-content-box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    /* background-color: aquamarine; */
+}
+.left-mail-imgs-box{
+    display: flex;
+}
+.flr-img{
+    width: 130px;
+}
+.n-dsign{
+    margin-left:1rem;
+    width: 300px;
+}
+.mail-content{
+    width: 500px;
+}
+.sign-up-hdg {
+    padding: 0 2rem 0 0;
+    font-weight: 700;
+    line-height: 35px;
+    margin:0 0 1rem 0;
+    font-size: 1.6rem;
+    color: white;
+}
+.input-box > label{
+    display: block;
+    margin: 1rem 0;
+    color: gray;
+}
+.input-box > input{
+    padding: 15px 15px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border: none;
+    width: 70%;
+    font-size: 0.9rem;
+}
+.input-box > input:focus,.input-box > input:active{
+    outline: none;
+}
+
+.input-box > button{
+padding: 15px 19px;
+    font-size: 1rem;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    background-color: #c90e0e;
+}
+
+.submiting-p{
+    color: gray;
+    padding: 1rem 0;
+}
+
+.ans-ques p {
+  display: none;
+}
+
+.ans-ques.active p {
+  display: block;
+}
+.fqs-con-hdg{
+  color: black;
+}
+
+
+
+.scroll-anim {
+    opacity: 0;
+    transform: translateY(60px) scale(0.97); /* slide from bottom + slight zoom */
+    transition: opacity 0.8s ease-out, transform 0.9s cubic-bezier(0.25, 0.8, 0.25, 1);
+    will-change: transform, opacity;
+}
+
+.scroll-anim.show {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+}
